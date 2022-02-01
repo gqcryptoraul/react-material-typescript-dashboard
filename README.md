@@ -11,7 +11,7 @@
 
 
 
-
+<h3>
 <a href="https://github.com/gqcryptoraul/react-material-typescript-dashboard/"><h3>Plantilla de panel de administración de React Typescript gratis creada con Material-UI< /h3></a>
 <p>
     Esta plantilla de tablero de administración gratuita y de código abierto está diseñada para React y se inicia desde la aplicación create-react-app de Facebook. Todas las dependencias de NPM están actualizadas y contiene múltiples componentes totalmente personalizados basados ​​en el popular marco de componentes de interfaz de usuario, Material-UI.
