@@ -28,6 +28,10 @@ const Transactions = Loader(lazy(() => import('src/content/applications/Transact
 const UserProfile = Loader(lazy(() => import('src/content/applications/Users/profile')));
 const UserSettings = Loader(lazy(() => import('src/content/applications/Users/settings')));
 
+const Cards = Loader(lazy(() => import('src/content/pages/Components/Cards')));
+const Modals = Loader(lazy(() => import('src/content/pages/Components/Modals')))
+const Videos = Loader(lazy(() => import('src/content/pages/Components/Videos')));
+
 // Components
 
 
@@ -122,7 +126,42 @@ const routes: PartialRouteObject[] = [
         ]
       }
     ]
+  },
+  {
+    path: 'components',
+    element: (
+      <SidebarLayout />
+    ),
+    children: [
+      {
+        path: '/',
+        element: (
+          <Navigate
+            to="/components/buttons"
+            replace
+          />
+        )
+      },
+      
+      {
+        path: 'modals',
+        element: <Modals />
+      },
+     
+     
+      
+     
+      {
+        path: 'cards',
+        element: <Cards />
+      },
+     {
+        path: 'videos',
+        element: <Videos />
+      },
+    ]
   }
+
   
 ];
 

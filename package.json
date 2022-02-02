@@ -9,7 +9,9 @@
   },
   "private": false,
   "dependencies": {
-    
+    "axios": "0.25.0",
+    "file-saver": "2.0.5",
+    "js-file-download": "0.4.12", 
     "@emotion/react": "11.4.1",
     "@emotion/styled": "11.3.0",
     "@mui/icons-material": "5.0.3",
@@ -37,7 +39,10 @@
     "react-helmet-async": "1.1.2",
     "react-router": "6.0.0-beta.0",
     "react-router-dom": "6.0.0-beta.0",
-    "react-scripts": "4.0.3",
+    "react-download-link": "latest",
+    "react-player": "2.9.0",
+    "react-responsive-modal": "6.2.0",
+    "react-scripts": "5.0.0",
     "stylis": "4.0.10",
     "stylis-plugin-rtl": "2.1.0",
     "web-vitals": "2.1.2"
