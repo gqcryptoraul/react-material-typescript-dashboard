@@ -22,12 +22,8 @@ DatqBox White Typescript Dashboard presenta un bonito diseño clásico, claro y 
 <p>
 Puede personalizar el esquema de color y el estilo editando archivos de variables individuales. Este panel de administración de TypeScript no usa hojas de estilo SCSS, sino el enfoque más moderno con componentes con estilo.
 </p>
-<<<<<<< HEAD
-=======
 
->>>>>>> 55da8a88b7935d8605df8b69ceec9894ab070be6
 
--
 ---
 
 <h2>
