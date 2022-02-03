@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import axios from "axios";
 import saveAs from "file-saver";
 import Player from "./reactPlayer";
-import "styles.ccs";
+
 
 class App extends React.Component {
   state = {
